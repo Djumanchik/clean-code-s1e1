@@ -32,7 +32,7 @@ main {
   display: inline-block;
   flex-grow: 1;
 }
-.task-row-wrapper {
+.task-wrapper {
   display: flex;
 }
 ul {
@@ -117,12 +117,12 @@ li > label {
 li > .task-text {
   width: 226px;
 }
-button.delete img {
+.btn-delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-button.delete img:hover {
+.btn-delete img:hover {
   transform: rotateZ(0);
 }
 /* Completed */
