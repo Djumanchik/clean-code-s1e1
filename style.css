@@ -60,7 +60,7 @@ button:hover {
 }
 /* Heading */
 h3,
-label[for='new-task'] {
+label[for="new-task"] {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -85,7 +85,7 @@ input[type="text"]:focus {
   color: #333;
 }
 /* New Task */
-label[for='new-task'] {
+label[for="new-task"] {
   display: block;
   margin: 0 0 20px;
 }
@@ -129,10 +129,10 @@ ul#completed-tasks label {
   text-decoration: line-through #888;
 }
 /* Edit Task */
-ul li input[type=text] {
+ul li input[type="text"] {
   display:none;
 }
-ul li.edit-mode input[type=text] {
+ul li.edit-mode input[type="text"] {
   display:inline-block;
   width:224px;
 }
